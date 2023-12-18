@@ -2,7 +2,7 @@
 	{
 		"category": "Reaction",
 		"score": 80,
-		"icon": "public/images/icon-reaction.svg",
+		"icon": "/public/images/icon-reaction.svg",
 		"color": "hsl(0, 100%, 67%)",
 		"bg": "hsl(0, 100%, 67%, 8%)",
 		"bgH": "hsl(0, 100%, 67%, 15%)"
