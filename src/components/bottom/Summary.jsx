@@ -2,6 +2,8 @@ import data from '../../../data/data.json';
 import Button from '../button/Button';
 
 
+
+
 const Summary = () => {
 
 	return (
