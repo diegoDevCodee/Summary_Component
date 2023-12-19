@@ -17,12 +17,12 @@ const Summary = () => {
 							className={`absolute top-0 left-0 h-full`}
 						></div>
 						<div className="flex gap-4 font-bold">
-							<img src={item.icon} alt="icon" />
+						<img src={item.icon} alt="icon" width={25} height={25}/>
 							{item.category}
 						</div>
 						<div className="flex gap-2">
 							<span className="text-darkGrayBlue font-bold">{item.score}</span>
-							<span className="text-gray-400">/ 100</span>
+							<span className="text-gray-500">/ 100</span>
 						</div>
 					</div>
 				))}

@@ -1,7 +1,7 @@
 const Results = () => {
 	return (
 		<div className="sm:w-[22rem] sm:h-[30rem] w-full h-full bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue rounded-b-[2rem] flex flex-col justify-center items-center gap-4 sm:gap-8 sm:rounded-l-[2rem] sm:rounded-r-none sm:shadow-xl">
-			<h3 className="font-bold text-lightLavender">Your Result</h3>
+			<h3 className="font-bold text-slate-200">Your Result</h3>
 			<div className="w-[8rem] h-[8rem] rounded-full flex flex-col justify-center items-center gap-2 bg-gradient-to-b from-violetBlue to-persianBlue">
 				<h2 className="text-paleBlue text-5xl font-black">76</h2>
 				<p className="text-lightLavender text-sm">of 100</p>
