@@ -7,7 +7,9 @@ const Results = () => {
 				<p className="text-lightLavender text-sm">of 100</p>
 			</div>
 			<div className="flex flex-col justify-center items-center gap-1">
-				<h2 className="text-paleBlue font-bold tracking-wide text-xl sm:text-2xl">Great</h2>
+				<h2 className="text-paleBlue font-bold tracking-wide text-xl sm:text-2xl">
+					Great
+				</h2>
 				<p className="text-lightLavender w-[16rem] text-center text-sm sm:text-lg">
 					You scored higher than 65% of the people who have taken these tests.
 				</p>
