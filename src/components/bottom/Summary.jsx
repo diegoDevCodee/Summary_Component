@@ -2,13 +2,9 @@ import data from '../../data/data.json';
 import Button from '../button/Button';
 
 const Summary = () => {
-
-
 	return (
 		<div className="px-6 mt-6 sm:mt-0 sm:w-[20rem] sm:h-[30rem] h-full sm:shadow-xl sm: rounded-r-[2rem] sm:flex sm:flex-col sm:justify-center">
 			<h3 className="font-bold text-darkGrayBlue text-lg my-4">Summary</h3>
-
-
 
 			<div className="flex flex-col gap-6 my-4">
 				{data.map((item) => (
