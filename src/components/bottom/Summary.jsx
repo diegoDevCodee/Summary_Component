@@ -16,9 +16,9 @@ const Summary = () => {
 							style={{ width: `${item.score}%`, backgroundColor: item.bgH }}
 							className={`absolute top-0 left-0 h-full`}
 						></div>
-						<div className="flex gap-4">
+						<div className="flex gap-4 font-bold">
 							<img src={item.icon} alt="icon" />
-							{item.category}s
+							{item.category}
 						</div>
 						<div className="flex gap-2">
 							<span className="text-darkGrayBlue font-bold">{item.score}</span>
